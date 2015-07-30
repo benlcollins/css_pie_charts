@@ -207,34 +207,43 @@ body {
 }
 #pie35 .multi-pie {
     background-color: orangered;
+    -webkit-transform:rotate(35deg);
     transform:rotate(35deg);
 }
 #pie124 {
+	-webkit-transform:rotate(35deg);
   transform:rotate(35deg);
 }
 #pie124 .multi-pie {
     background-color: salmon;
+    -webkit-transform:rotate(124deg);
     transform:rotate(124deg);
 }
 #pie16 {
+	-webkit-transform:rotate(159deg);
   transform:rotate(159deg);
 }
 #pie16 .multi-pie {
     background-color: gray;
+    -webkit-transform:rotate(16deg);
     transform:rotate(16deg);
 }
 #pie171 {
+	-webkit-transform:rotate(175deg);
   transform:rotate(175deg);
 }
 #pie171 .multi-pie {
     background-color: firebrick;
+    -webkit-transform:rotate(5deg);
     transform:rotate(5deg);
 }
 #pie171_part2 {
+	-webkit-transform:rotate(180deg);
   transform:rotate(180deg);
 }
 #pie171_part2 .multi-pie {
     background-color: firebrick;
+    -webkit-transform:rotate(138deg);
     transform:rotate(138deg);
 }
 
