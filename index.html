@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link href="stylesheet2.css" rel="stylesheet" />
+	<link href="stylesheet4.css" rel="stylesheet" />
 	<!-- <link href="stylesheet2.css" rel="stylesheet" /> -->
 </head>
 
 <body>
 
 	<h1>Pie chart test</h1>
+
+<div class="multi-pie-container"><div class="multi-pie-background"><div id="pie35" class="hold"><div class="multi-pie"></div></div><div id="pie124" class="hold"><div class="multi-pie"></div></div><div id="pie16" class="hold"><div class="multi-pie"></div></div><div id="pie171" class="hold"><div class="multi-pie"></div></div><div id="pie171_part2" class="hold"><div class="multi-pie"></div></div></div></div><div id="legend"><ul><li id='square1'><span>Agent: 6</span></li><li id='square2'><span>Internet: 21</span></li><li id='square3'><span>Prospecting: 3</span></li><li id='square4'><span>SOI: 24</span></li><li id='square5'><span>Yard Marketing: 7</span></li></ul></div>
+
+<h2>Original work:</h2>
+	<!-- <div class="pieContainer">
+     <div class="pieBackground"></div>
+     <div id="pieSlice1" class="hold"><div class="pie"></div></div>
+     <div id="pieSlice1_part2" class="hold"><div class="pie"></div></div>
+     <div id="pieSlice2" class="hold"><div class="pie"></div></div>
+	</div> -->
+
+	<div class="multi-pie-container">
+		<div class="multi-pie-background">
+			<div id="pie35" class="hold"><div class="multi-pie"></div></div>
+			<div id="pie124" class="hold"><div class="multi-pie"></div></div>
+			<div id="pie16" class="hold"><div class="multi-pie"></div></div>
+			<div id="pie171" class="hold"><div class="multi-pie"></div></div>
+			<div id="pie171_part2" class="hold"><div class="multi-pie"></div></div>
+		</div>
+	</div>
 
 	<!-- <div class="pie pie_0"></div>
 	<div class="pie pie_1"></div>
@@ -18,9 +38,22 @@
 	<div class="pie pie_50"></div>
 	<div class="pie pie_51"></div>
 	<div class="pie pie_58"></div> -->
+
+	<h2>2 datapoints:</h2>
+
 	<div class="pie pie_71"></div>
-	<ul><li class="red_square"><div class="buyer">Buyer: 71</div></li>
-		<li class="green_square"><div class="seller">Seller: 29</div></li></ul>
+	<div id="legend">
+		<ul>
+			<li id="green_square">
+				<span>Buyer: 71</span>
+			</li>
+			<li id="red_square">
+				<span>Seller: 29</span>
+			</li>
+		</ul>
+	</div>
+	
+<!-- <span class="buyer"></span> -->
 	<!-- <div class="pie pie_83"></div>
 	<div class="pie pie_95"></div>
 	<div class="pie pie_100"></div> -->
@@ -44,10 +77,10 @@
 
 	<!-- <div class='colorWheel'></div> -->
 
-	<!-- <div class="pie" data-start="0" data-value="30"></div>
-	<div class="pie" data-start="30" data-value="30"></div>
-	<div class="pie" data-start="60" data-value="40"></div>
-	<div class="pie big" data-start="100" data-value="260"></div> -->
+	<!-- <div class="multi-pie" data-start="0" data-value="30"></div>
+	<div class="multi-pie" data-start="30" data-value="30"></div>
+	<div class="multi-pie" data-start="60" data-value="40"></div>
+	<div class="multi-pie big" data-start="100" data-value="260"></div> -->
 	
 </body>
 </html>
