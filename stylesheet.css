@@ -1,0 +1,249 @@
+/*Pie chart v1*/
+.pie {
+	width: 100px; height: 100px;
+  border-radius: 50%;
+  background: yellowgreen;
+  background-image: linear-gradient(to right, transparent 50%, tomato 0);
+}
+.pie::before {
+	content: '';
+	display: block;
+	margin-left: 50%;
+	height: 100%;
+	border-radius: 0 100% 100% 0 / 50%;
+	transform-origin: left;
+	-webkit-transform-origin: left;
+}
+
+
+/*Pie chart v2 animated*/
+.pie2 {
+	width: 100px; height: 100px;
+  border-radius: 50%;
+  background: yellowgreen;
+  background-image: linear-gradient(to right, transparent 50%, tomato 0);
+}
+.pie2::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+  animation: spin 3s linear forwards;
+}
+@keyframes spin {
+  to {transform: rotate(.4turn);}
+}
+
+
+/*Pie chart v3 multiple segments*/
+pie {
+    border-radius: 50%;
+    background-color: green;
+}
+
+.ten {
+    background-image:
+        linear-gradient(126deg, transparent 50%, white 50%),
+        linear-gradient(90deg, white 50%, transparent 50%);
+}
+
+
+
+
+
+
+
+.pie3 {
+	width: 100px; height: 100px;
+  border-radius: 50%;
+  background: yellowgreen;
+  /*background-image: linear-gradient(45deg, transparent 50%, tomato 0);*/
+  background-image: linear-gradient(35deg, transparent 50%, tomato 0);
+}
+/*.pie3::after{
+	content: '';
+	display: block;
+	background-image: linear-gradient(335deg, transparent 50%, steelblue 0) !important;
+}*/
+
+.pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid red;
+  border-left: 60px solid red;
+  border-bottom: 60px solid red;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 50px solid red;
+  border-top-left-radius: 50%;
+  border-radius: 50%;
+}
+.facebook-icon {
+  background: red;
+  text-indent: -999em;
+  width: 100px;
+  height: 110px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  border: 15px solid red;
+  border-bottom: 0;
+}
+.facebook-icon::before {
+  content: "/20";
+  position: absolute;
+  background: red;
+  width: 40px;
+  height: 90px;
+  bottom: -30px;
+  right: -37px;
+  border: 20px solid #eee;
+  border-radius: 25px;
+}
+.facebook-icon::after {
+  content: "/20";
+  position: absolute;
+  width: 55px;
+  top: 50px;
+  height: 20px;
+  background: #eee;
+  right: 5px;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+}
+.circle {
+  width: 16em; height: 16em;
+  border-radius: 50%;
+  background: 
+    linear-gradient(46deg, red 42.34%, transparent 42.34%) 0 0;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+
+
+.colorWheel {
+  overflow: hidden;
+  position: relative;
+  margin: 1em auto;
+  width: 16em; height: 16em;
+  background: linear-gradient(36deg, #272b66 42.34%, transparent 42.34%),
+    linear-gradient(72deg, #2d559f 75.48%, transparent 75.48%),
+    linear-gradient(-36deg, #9ac147 42.34%, transparent 42.34%) 100% 0,
+    linear-gradient(-72deg, #639b47 75.48%, transparent 75.48%) 100% 0, 
+    linear-gradient(36deg, transparent 57.66%, #e1e23b 57.66%) 100% 100%,
+    linear-gradient(72deg, transparent 24.52%, #f7941e 24.52%) 100% 100%,
+    linear-gradient(-36deg, transparent 57.66%, #662a6c 57.66%) 0 100%,
+    linear-gradient(-72deg, transparent 24.52%, #9a1d34 24.52%) 0 100%, 
+    #43a1cd linear-gradient(#ba3e2e, #ba3e2e) 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 0 0, 0 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 50% 100%;
+  /*animation: layer 1s linear forwards;*/
+}
+/*@keyframes layer {
+  0% {
+    background-position: -100% 0, -100% 0, 200% 0, 200% 0, 200% 100%, 200% 100%, -100% 100%, -100% 100%, 50% 200%;
+  }
+  10% {
+    background-position: -100% 0, -100% 0, 200% 0, 200% 0, 200% 100%, 200% 100%, -100% 100%, -100% 100%, 50% 100%;
+  }
+  20% {
+    background-position: -100% 0, -100% 0, 200% 0, 200% 0, 200% 100%, 200% 100%, -100% 100%, 0 100%, 50% 100%;
+  }
+  30% {
+    background-position: -100% 0, -100% 0, 200% 0, 200% 0, 200% 100%, 200% 100%, 0 100%, 0 100%, 50% 100%;
+  }
+  40% {
+    background-position: -100% 0, -100% 0, 200% 0, 200% 0, 200% 100%, 100% 100%, 0 100%, 0 100%, 50% 100%;
+  }
+  50% {
+    background-position: -100% 0, -100% 0, 200% 0, 200% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 50% 100%;
+  }
+  60% {
+    background-position: -100% 0, -100% 0, 200% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 50% 100%;
+  }
+  70% {
+    background-position: -100% 0, -100% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 50% 100%;
+  }
+  80% {
+    background-position: -100% 0, 0 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 50% 100%;
+  }
+  90%, 100% {
+    background-position: 0 0, 0 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 50% 100%;
+  }
+}*/
+
+.colorWheel:before {
+  position: absolute;
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10em white;
+  /*opacity: .5;*/
+  content: '';
+}
+
+
+
+/*.pie3::before {
+	content: '';
+	display: block;
+	margin-left: 50%;
+	height: 100%;
+	border-radius: 0 100% 100% 0 / 50%;
+	transform-origin: left;
+	-webkit-transform-origin: left;
+}
+.pie3::before {
+	transform: rotate(.3turn);
+	-webkit-transform: rotate(.3turn);
+	background: yellowgreen;
+}*/
+/*.pie4::before {
+	content: '';
+	display: block;
+	margin-left: 50%;
+	height: 100%;
+	border-radius: 0 100% 100% 0 / 50%;
+	transform-origin: left;
+	-webkit-transform-origin: left;
+	transform: rotate(.2turn);
+	-webkit-transform: rotate(.2turn);
+	background: blueviolet;
+	background-image: linear-gradient(to bottom, transparent 50%, yellowgreen 0);
+}
+.pie5::after {
+	/*content: '';
+	display: block;
+	margin-left: 50%;
+	height: 100%;
+	border-radius: 0 100% 100% 0 / 50%;
+	transform-origin: left;
+	-webkit-transform-origin: left;*/
+	/*transform: rotate(.5turn);*/
+	/*-webkit-transform: rotate(.4turn);*/
+	/*background: yellowgreen;*/
+	/*background-image: linear-gradient(to bottom, transparent 50%, yellowgreen 0);*/
+/*}*/
+
+
+
+
+
