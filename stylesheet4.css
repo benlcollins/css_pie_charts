@@ -251,3 +251,76 @@ h1, h2 {
 }
 
 
+
+/* 
+  MULTI PIE CHART v2
+*/
+.mp-ct {
+  margin: 1em auto;
+  width: 300px; height: 300px;
+}
+.mp-bg {
+  background-color: steelblue;
+  position: absolute;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+}
+.mp {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    clip: rect(0px, 150px, 300px, 0px);
+}
+.hold {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    clip: rect(0px, 300px, 300px, 150px);
+}
+#p_1_5 .mp {
+    background-color: orangered;
+    -webkit-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+#p_2_5 {
+  -webkit-transform:rotate(5deg);
+  transform:rotate(5deg);
+}
+#p_2_5 .mp {
+    background-color: salmon;
+    -webkit-transform:rotate(5deg);
+    transform:rotate(5deg);
+}
+#p_3_10 {
+  -webkit-transform:rotate(10deg);
+  transform:rotate(10deg);
+}
+#p_3_10 .mp {
+    background-color: gray;
+    -webkit-transform:rotate(10deg);
+    transform:rotate(10deg);
+}
+#p_4_171 {
+  -webkit-transform:rotate(20deg);
+  transform:rotate(20deg);
+}
+#p_4_171 .mp {
+    background-color: firebrick;
+    -webkit-transform:rotate(160deg);
+    transform:rotate(160deg);
+}
+#p_4_171_p2 {
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
+}
+#p_4_171_p2 .mp {
+    background-color: firebrick;
+    -webkit-transform:rotate(11deg);
+    transform:rotate(11deg);
+}
+
+
+
+
