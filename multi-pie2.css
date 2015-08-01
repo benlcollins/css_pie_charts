@@ -1,48 +1,61 @@
 body {
-	background-color: snow;
+  background-color: black;
 }
+h1, h2 {
+  color: white;
+}
+
 #legend ul {
   list-style-type: square;
   margin: 10px;
   text-align: center;
 }
 #legend ul li {
-	display: inline-block;
-	padding: 0 20px;
-	font-size: 20px;
+  display: inline-block;
+  padding-right: 50px;
+  font-size: 20px;
 }
 #legend ul > li:before {
-	content: '';
-	display: list-item;
-	position: absolute;
+  content: '';
+  display: list-item;
+  position: absolute;
 }
-#legend ul > li#square1 {
-	color: #5DA5DA; /*blue*/
+#legend ul > li#green_square {
+  color: yellowgreen;
 }
-#legend ul > li#square2 {
-	color: #FAA43A; /*orange*/
-}
-#legend ul > li#square3 {
-	color: #DECF3F; /*yellow*/
-}
-#legend ul > li#square4 {
-	color: #60BD68; /*green*/
-}
-#legend ul > li#square5 {
-	color: #F15854; /*red*/
+#legend ul > li#red_square {
+  color: tomato;
 }
 #legend ul > li > span {
-	color: white;
-	font-size: 12px;
+  color: white;
+  font-size: 15px;
+}
+#legend ul > li#square1 {
+  color: orangered;
+}
+#legend ul > li#square2 {
+  color: salmon;
+}
+#legend ul > li#square3 {
+  color: gray;
+}
+#legend ul > li#square4 {
+  color: firebrick;
+}
+#legend ul > li#square5 {
+  color: steelblue;
 }
 
-/* PIE CHART */
+
+
+
+/* MULTI PIE CHART */
 .mp-ct {
   margin: 1em auto;
   width: 300px; height: 300px;
 }
 .mp-bg {
-  background-color: #F15854; /*red*/
+  background-color: steelblue;
   position: absolute;
   width: 300px; height: 300px;
   border-radius: 50%;
@@ -63,11 +76,11 @@ body {
 }
 
 /*colors*/
-.color_1 { background-color: #5DA5DA; } /*blue*/
-.color_2 { background-color: #FAA43A; } /*orange*/
-.color_3 { background-color: #DECF3F; } /*yellow*/
-.color_4 { background-color: #60BD68; } /*green*/
-.color_5 { background-color: #F15854; } /*red*/
+.color_1 { background-color: orangered; }
+.color_2 { background-color: salmon; }
+.color_3 { background-color: gray; }
+.color_4 { background-color: firebrick; }
+.color_5 { background-color: steelblue; }
 
 /*rotations*/
 #rt_0 { -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); transform:rotate(0deg); }
@@ -614,7 +627,4 @@ body {
 .seg_178 { -webkit-transform:rotate(178deg); -moz-transform:rotate(178deg); -ms-transform:rotate(178deg); transform:rotate(178deg); }
 .seg_179 { -webkit-transform:rotate(179deg); -moz-transform:rotate(179deg); -ms-transform:rotate(179deg); transform:rotate(179deg); }
 .seg_180 { -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); transform:rotate(180deg); }
-
-
-
 
