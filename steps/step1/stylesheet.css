@@ -1,0 +1,10 @@
+/*Pie Chart Step 1*/
+.mp-ct {
+  margin: 1em auto;
+  width: 300px; height: 300px;
+}
+.mp-bg {
+  overflow: hidden;
+  position: absolute;
+  width: 300px; height: 300px;
+}
