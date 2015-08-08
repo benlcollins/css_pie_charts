@@ -2,11 +2,6 @@ body {
 	background-color: black;
 }
 
-/*overide the default geckoboard settings */
-.t-size-x60 {
-  font-size: 54px !important;
-}
-
 /*pie chart legend styles*/
 #legend ul {
   list-style-type: square;
