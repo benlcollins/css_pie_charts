@@ -10,9 +10,11 @@ This project originated from a client project to build a custom Geckoboard dashb
 
 You’ll need three things:
 
-A text widget in your Geckoboard dashboard, ![alt text](https://support.geckoboard.com/hc/en-us/articles/206239727?_ga=1.53107752.1453571367.1438360260#text "like this")
-A google spreadsheet with the data for your pie chart, ![alt text](https://docs.google.com/spreadsheets/d/1cTb3v7VujW5irEQ6epAdG_exXdoKTNCVwKrnN2wTTkY/edit#gid=1680036688 "like this")
-A custom CSS file, ![alt text](https://github.com/benlcollins/css_pie_charts/blob/master/final_legend/stylesheet.css "like this")
+A text widget in your Geckoboard dashboard: https://support.geckoboard.com/hc/en-us/articles/206239727?_ga=1.53107752.1453571367.1438360260#text
+
+A google spreadsheet with the data for your pie chart: https://docs.google.com/spreadsheets/d/1cTb3v7VujW5irEQ6epAdG_exXdoKTNCVwKrnN2wTTkY/edit#gid=1680036688
+
+A custom CSS file: https://github.com/benlcollins/css_pie_charts/blob/master/final_legend/stylesheet.css
 
 Then it’s simple process to link the Geckoboard text widget to your Google spreadsheet, and upload the custom CSS file:
 
